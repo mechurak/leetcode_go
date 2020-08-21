@@ -1,4 +1,4 @@
-package Q0003_LongestSubstringWithoutRepeatingCharacters
+package q0003
 
 import "testing"
 

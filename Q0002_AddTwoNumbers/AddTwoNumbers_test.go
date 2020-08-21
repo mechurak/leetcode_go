@@ -1,4 +1,4 @@
-package Q0002_AddTwoNumbers
+package q0002
 
 import (
 	"reflect"

@@ -1,4 +1,4 @@
-package Q0001_TwoSum
+package q0001
 
 import (
 	"reflect"
