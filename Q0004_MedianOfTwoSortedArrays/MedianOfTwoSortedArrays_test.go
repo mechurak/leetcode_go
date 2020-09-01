@@ -1,8 +1,6 @@
 package q0004
 
-import (
-	"testing"
-)
+import "testing"
 
 func Test_findMedianSortedArrays(t *testing.T) {
 	type args struct {
