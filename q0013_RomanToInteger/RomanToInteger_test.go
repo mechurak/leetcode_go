@@ -2,7 +2,7 @@ package q0013_RomanToInteger
 
 import "testing"
 
-func Test_findMedianSortedArrays(t *testing.T) {
+func Test_romanToInt(t *testing.T) {
 	tests := []struct {
 		name string
 		s    string

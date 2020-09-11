@@ -2,7 +2,7 @@ package q0011_ContainerWithMostWater
 
 import "testing"
 
-func Test_findMedianSortedArrays(t *testing.T) {
+func Test_maxArea(t *testing.T) {
 	tests := []struct {
 		name   string
 		height []int

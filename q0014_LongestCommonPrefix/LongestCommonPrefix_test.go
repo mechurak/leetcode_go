@@ -2,7 +2,7 @@ package q0014_LongestCommonPrefix
 
 import "testing"
 
-func Test_isMatch(t *testing.T) {
+func Test_longestCommonPrefix(t *testing.T) {
 	tests := []struct {
 		name string
 		strs []string
@@ -14,7 +14,7 @@ func Test_isMatch(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := longestCommonPrefix(tt.strs); got != tt.want {
-				t.Errorf("isMatch() = %v, want %v", got, tt.want)
+				t.Errorf("longestCommonPrefix() = %v, want %v", got, tt.want)
 			}
 		})
 	}
